@@ -1,0 +1,30 @@
+# ── Core LLM ────────────────────────────────────────────────────────────
+openai>=1.30.0
+
+# ── LangChain ────────────────────────────────────────────────────────────
+langchain>=0.2.0
+langchain-openai>=0.1.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-classic>=1.0.0
+
+# ── Data Validation (used by LangChain StructuredTool schemas) ───────────
+pydantic>=2.0.0
+
+# ── Environment Variables ────────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── LangGraph ────────────────────────────────────────────────────────────
+langgraph>=0.2.0            # Explicit graph-based agent orchestration
+langgraph-checkpoint>=1.0.0 # Checkpointer backends (MemorySaver, SqliteSaver, etc.)
+
+# ── MCP ─────────────────────────────────────────────────────────────────
+mcp>=1.0.0                  # MCP Python SDK — stdio client + session management
+
+# ── Development Tools ────────────────────────────────────────────────────
+# ruff is a linter and formatter for Python.
+ruff>=0.4.0
+
+# ── Python requests library ─────────────────────────────────────────────
+# makes it easier to work with APIs
+requests>=2.32.0
